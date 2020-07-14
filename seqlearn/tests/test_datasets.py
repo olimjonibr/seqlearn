@@ -2,7 +2,7 @@ from nose.tools import assert_equal, assert_less, assert_true
 from numpy.testing import assert_array_equal
 import scipy.sparse as sp
 
-from sklearn.externals import six
+import six
 from seqlearn.datasets import load_conll
 
 
