@@ -7,7 +7,7 @@ import sys
 
 import numpy as np
 from scipy.sparse import csc_matrix
-from sklearn.externals import six
+import six
 
 from .base import BaseSequenceClassifier
 from ._utils import (atleast2d_or_csr, check_random_state, count_trans,
