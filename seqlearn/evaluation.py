@@ -2,7 +2,7 @@ from functools import partial
 from warnings import warn
 
 import numpy as np
-from sklearn.externals import six
+import six
 
 from ._utils import check_random_state
 
