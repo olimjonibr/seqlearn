@@ -5,7 +5,7 @@ from itertools import chain, groupby
 
 import numpy as np
 from sklearn.feature_extraction import FeatureHasher
-from sklearn.externals import six
+import six
 
 
 def load_conll(f, features, n_features=(2 ** 16), split=False):
